@@ -2,25 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7707a102-aa87-4d42-b2d1-153f12decab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/testUnsafe/UnsafeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/testVolatile/NotAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/testVolatile/VolatileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/http/handler/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/http/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/http/utils/CustomerServerChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/tcp/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/tcp/handler/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/tcp/handler/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/tcp/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/mvc/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/listener/simple/EventListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/listener/simple/MyApplicationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/listener/simple/MyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/listener/simple/MyEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/listener/simple/MyEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/simple/ConcreteObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/simple/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/simple/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/simple/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/observer/simple/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo1/Async.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo1/Sync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/classAdapter/Adaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/classAdapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/classAdapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/classAdapter/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/objectAdapter/Adaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/objectAdapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns/src/main/java/org/jiang/adapter/objectAdapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/adapter/objectAdapter/Target.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +67,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -73,13 +81,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Server-Http">
-    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.tcp.client.Client" />
-      <module name="netty" />
+  <component name="RunManager" selected="Application.Async">
+    <configuration name="Async" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo1.Async" />
+      <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.tcp.client.*" />
+          <option name="PATTERN" value="org.jiang.threads.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.tcp.server.Server" />
-      <module name="netty" />
+    <configuration name="Sync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo1.Sync" />
+      <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.tcp.server.*" />
+          <option name="PATTERN" value="org.jiang.threads.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.testUnsafe.UnsafeDemo" />
-      <module name="juc" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.observer.simple.Test" />
+      <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.testUnsafe.*" />
+          <option name="PATTERN" value="org.jiang.observer.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,33 +134,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.testVolatile.VolatileDemo" />
-      <module name="juc" />
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.testVolatile.*" />
+          <option name="PATTERN" value="org.jiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jiang.TestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.UnsafeDemo" />
-      <item itemvalue="Application.VolatileDemo" />
       <item itemvalue="Application.Server-Http" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Sync" />
+      <item itemvalue="Application.Async" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Async" />
+        <item itemvalue="Application.Sync" />
+        <item itemvalue="Spring Boot.TestApplication" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Server-Http" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.UnsafeDemo" />
-        <item itemvalue="Application.VolatileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +184,8 @@
       <workItem from="1614254868336" duration="3202000" />
       <workItem from="1614509388312" duration="15227000" />
       <workItem from="1614534797841" duration="198000" />
+      <workItem from="1614599873760" duration="475000" />
+      <workItem from="1614600360966" duration="13352000" />
     </task>
     <servers />
   </component>
@@ -190,46 +200,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614525415262" />
-    <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1614532517222">
+    <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1614618244979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614532517222" />
-    <state width="408" height="602" key="DebuggerActiveHint" timestamp="1614520735866">
+    <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614618244979" />
+    <state x="488" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614606514740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="408" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614520735866" />
-    <state width="1491" height="281" key="GridCell.Tab.0.bottom" timestamp="1614533981820">
+    <state x="488" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1614606514740" />
+    <state width="665" height="602" key="DebuggerActiveHint" timestamp="1614601891776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614533981820" />
-    <state width="1491" height="281" key="GridCell.Tab.0.center" timestamp="1614533981820">
+    <state width="665" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614601891776" />
+    <state width="1491" height="281" key="GridCell.Tab.0.bottom" timestamp="1614618981764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614533981820" />
-    <state width="1491" height="281" key="GridCell.Tab.0.left" timestamp="1614533981820">
+    <state width="1491" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614618981764" />
+    <state width="1491" height="281" key="GridCell.Tab.0.center" timestamp="1614618981763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614533981820" />
-    <state width="1491" height="281" key="GridCell.Tab.0.right" timestamp="1614533981820">
+    <state width="1491" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614618981763" />
+    <state width="1491" height="281" key="GridCell.Tab.0.left" timestamp="1614618981763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614533981820" />
-    <state width="1491" height="311" key="GridCell.Tab.1.bottom" timestamp="1614525331710">
+    <state width="1491" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614618981763" />
+    <state width="1491" height="281" key="GridCell.Tab.0.right" timestamp="1614618981764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="311" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614525331710" />
-    <state width="1491" height="311" key="GridCell.Tab.1.center" timestamp="1614525331710">
+    <state width="1491" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614618981764" />
+    <state width="1491" height="279" key="GridCell.Tab.1.bottom" timestamp="1614618981758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="311" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614525331710" />
-    <state width="1491" height="311" key="GridCell.Tab.1.left" timestamp="1614525331710">
+    <state width="1491" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.1.center" timestamp="1614618981758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="311" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614525331710" />
-    <state width="1491" height="311" key="GridCell.Tab.1.right" timestamp="1614525331710">
+    <state width="1491" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.1.left" timestamp="1614618981758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="311" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614525331710" />
+    <state width="1491" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.1.right" timestamp="1614618981758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.2.bottom" timestamp="1614618981759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614618981759" />
+    <state width="1491" height="279" key="GridCell.Tab.2.center" timestamp="1614618981758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="279" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.2.left" timestamp="1614618981758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="279" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1614618981758" />
+    <state width="1491" height="279" key="GridCell.Tab.2.right" timestamp="1614618981759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1614618981759" />
     <state x="558" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614511426495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,10 +272,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614519779291" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614519140736">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614610108277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614519140736" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614610108277" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -264,6 +294,16 @@
           <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/tcp/server/Server.java</url>
           <line>41</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1000</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java</url>
+          <line>777</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
