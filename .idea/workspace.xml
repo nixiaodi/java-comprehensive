@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7707a102-aa87-4d42-b2d1-153f12decab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo3/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo3/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/TestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/mvc/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/EventListenerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyApplicationListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEventPublisher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/ConcreteObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/ConcreteSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Test.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo0004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo5/Demo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo04.class" beforeDir="false" afterPath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo04.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +61,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Demo04">
+  <component name="RunManager" selected="Application.Demo5">
     <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo3.Demo03" />
       <module name="juc" />
@@ -121,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo5.Demo5" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.threads.demo5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo2.ThreadDemo" />
       <module name="juc" />
@@ -134,33 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jiang.TestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.Demo03" />
       <item itemvalue="Application.Demo3" />
       <item itemvalue="Application.Demo04" />
+      <item itemvalue="Application.Demo5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo5" />
         <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +169,8 @@
       <workItem from="1614619077938" duration="39000" />
       <workItem from="1614690430948" duration="730000" />
       <workItem from="1614696957973" duration="2206000" />
-      <workItem from="1614772621939" duration="8393000" />
+      <workItem from="1614772621939" duration="9200000" />
+      <workItem from="1614860249640" duration="4609000" />
     </task>
     <servers />
   </component>
@@ -216,26 +197,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="665" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614601891776" />
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom" timestamp="1614790625999">
+    <state width="1491" height="267" key="GridCell.Tab.0.bottom" timestamp="1614791926588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center" timestamp="1614790625999">
+    <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
+    <state width="1491" height="267" key="GridCell.Tab.0.center" timestamp="1614791926588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left" timestamp="1614790625999">
+    <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
+    <state width="1491" height="267" key="GridCell.Tab.0.left" timestamp="1614791926587">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right" timestamp="1614790625999">
+    <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614791926587" />
+    <state width="1491" height="267" key="GridCell.Tab.0.right" timestamp="1614791926588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
+    <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
     <state width="1491" height="279" key="GridCell.Tab.1.bottom" timestamp="1614695652621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -276,10 +257,10 @@
     </state>
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1614690485829" />
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1614695652622" />
-    <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1614780126320">
+    <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1614865440755">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.864@0.0.1536.864" timestamp="1614780126320" />
+    <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.864@0.0.1536.864" timestamp="1614865440755" />
     <state x="558" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614511426495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -292,11 +273,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614519779291" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1614697445565">
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1614870595119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614610108277" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1614697445565" />
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1614870595119" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
