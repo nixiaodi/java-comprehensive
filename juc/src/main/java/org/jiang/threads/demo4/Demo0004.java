@@ -8,6 +8,4 @@ public class Demo0004 {
     public synchronized static void main(String[] args) {
         i++;
     }
-
-    new ReentrantLock
 }
