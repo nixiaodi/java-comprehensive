@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7707a102-aa87-4d42-b2d1-153f12decab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo3/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo3/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/TestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/classAdapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/mvc/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/adapter/objectAdapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/EventListenerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyApplicationListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/listener/simple/MyEventPublisher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/ConcreteObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/ConcreteSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jiang/observer/simple/Test.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/handler/ServerHealthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/initializer/ServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/model/CallbackBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/server/OssServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="mavenHome" value="D:\Environment\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -79,9 +81,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Demo04">
+  <component name="RunManager" selected="Application.OssServer">
     <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo3.Demo03" />
       <module name="juc" />
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo2.ThreadDemo" />
-      <module name="juc" />
+    <configuration name="OssServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.json.server.OssServer" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo2.*" />
+          <option name="PATTERN" value="org.jiang.json.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,41 +136,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="design-patterns" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.http.server.Server" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.*" />
+          <option name="PATTERN" value="org.jiang.http.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jiang.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.Demo03" />
       <item itemvalue="Application.Demo3" />
       <item itemvalue="Application.Demo04" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.OssServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OssServer" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
-  </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -190,11 +201,23 @@
       <workItem from="1614690430948" duration="730000" />
       <workItem from="1614696957973" duration="2206000" />
       <workItem from="1614772621939" duration="8393000" />
+      <workItem from="1614840928998" duration="2179000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -216,26 +239,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="665" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614601891776" />
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom" timestamp="1614790625999">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1879" height="288" key="GridCell.Tab.0.bottom" timestamp="1614841058196">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
     <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center" timestamp="1614790625999">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
+    <state width="1879" height="288" key="GridCell.Tab.0.center" timestamp="1614841058196">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
     <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left" timestamp="1614790625999">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
+    <state width="1879" height="288" key="GridCell.Tab.0.left" timestamp="1614841058196">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
     <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right" timestamp="1614790625999">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
+    <state width="1879" height="288" key="GridCell.Tab.0.right" timestamp="1614841058196">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
     <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
+    <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
     <state width="1491" height="279" key="GridCell.Tab.1.bottom" timestamp="1614695652621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -276,6 +303,10 @@
     </state>
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1614690485829" />
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1614695652622" />
+    <state x="491" y="185" key="SettingsEditor" timestamp="1614840966591">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614840966591" />
     <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1614780126320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
