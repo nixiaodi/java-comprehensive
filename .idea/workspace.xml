@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="7707a102-aa87-4d42-b2d1-153f12decab7" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo0004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo4/Demo004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo5/Demo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo04.class" beforeDir="false" afterPath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo04.class" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/handler/ServerHealthHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/initializer/ServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/model/CallbackBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/json/server/OssServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/ConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/FlyweightPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/UnsharedConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/integerTest/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/pool/Pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/pool/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threadpool/BlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threadpool/RejectPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threadpool/TestPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threadpool/ThreadPoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo6/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo7/Demo007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo7/Demo07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo7/Demo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo7/SpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo8/Demo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo9/Demo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo0004.class" beforeDir="false" afterPath="$PROJECT_DIR$/juc/target/classes/org/jiang/threads/demo4/Demo0004.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +42,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Environment\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -88,19 +75,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.Demo5">
-=======
-  <component name="RunManager" selected="Application.OssServer">
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo3.Demo03" />
+  <component name="RunManager" selected="Application.Demo9">
+    <configuration name="Demo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo9.Demo9" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo3.*" />
+          <option name="PATTERN" value="org.jiang.threads.demo9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo4.Demo04" />
-      <module name="juc" />
+    <configuration name="FlyweightPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.flyweight.flyweightTest.FlyweightPattern" />
+      <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo4.*" />
+          <option name="PATTERN" value="org.jiang.flyweight.flyweightTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo3.Demo3" />
-      <module name="juc" />
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.flyweight.integerTest.IntegerTest" />
+      <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo3.*" />
+          <option name="PATTERN" value="org.jiang.flyweight.integerTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,21 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo5.Demo5" />
-      <module name="juc" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.flyweight.pool.Test" />
+      <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo5.*" />
-=======
-    <configuration name="OssServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.json.server.OssServer" />
-      <module name="netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.json.server.*" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
+          <option name="PATTERN" value="org.jiang.flyweight.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,78 +130,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo2.ThreadDemo" />
+    <configuration name="TestPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.threadpool.TestPool" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo2.*" />
+          <option name="PATTERN" value="org.jiang.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-=======
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.http.server.Server" />
-      <module name="netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jiang.http.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-<<<<<<< HEAD
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Application.Demo03" />
-      <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.Demo04" />
-      <item itemvalue="Application.Demo5" />
+      <item itemvalue="Application.FlyweightPattern" />
+      <item itemvalue="Application.IntegerTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestPool" />
+      <item itemvalue="Application.Demo9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo5" />
-        <item itemvalue="Application.Demo04" />
-        <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.ThreadDemo" />
-=======
-      <item itemvalue="Application.Demo03" />
-      <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.Demo04" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.OssServer" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.OssServer" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Demo04" />
-        <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo3" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
+        <item itemvalue="Application.Demo9" />
+        <item itemvalue="Application.TestPool" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.IntegerTest" />
+        <item itemvalue="Application.FlyweightPattern" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -248,29 +185,15 @@
       <workItem from="1614619077938" duration="39000" />
       <workItem from="1614690430948" duration="730000" />
       <workItem from="1614696957973" duration="2206000" />
-<<<<<<< HEAD
       <workItem from="1614772621939" duration="9200000" />
-      <workItem from="1614860249640" duration="4609000" />
-=======
-      <workItem from="1614772621939" duration="8393000" />
-      <workItem from="1614840928998" duration="2179000" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
+      <workItem from="1614860249640" duration="5505000" />
+      <workItem from="1615050475510" duration="1536000" />
+      <workItem from="1615103163941" duration="27833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -280,10 +203,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614525415262" />
-    <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1614618244979">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1615125186321">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614618244979" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615125186321" />
     <state x="488" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614606514740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -292,73 +216,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="665" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614601891776" />
-<<<<<<< HEAD
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom" timestamp="1614791926588">
+    <state width="1491" height="435" key="GridCell.Tab.0.bottom" timestamp="1615139279784">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center" timestamp="1614791926588">
+    <state width="1491" height="435" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615139279784" />
+    <state width="1491" height="435" key="GridCell.Tab.0.center" timestamp="1615139279784">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left" timestamp="1614791926587">
+    <state width="1491" height="435" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615139279784" />
+    <state width="1491" height="435" key="GridCell.Tab.0.left" timestamp="1615139279784">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614791926587" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right" timestamp="1614791926588">
+    <state width="1491" height="435" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615139279784" />
+    <state width="1491" height="435" key="GridCell.Tab.0.right" timestamp="1615139279784">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614791926588" />
-=======
-    <state width="1879" height="288" key="GridCell.Tab.0.bottom" timestamp="1614841058196">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1491" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1879" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
-    <state width="1879" height="288" key="GridCell.Tab.0.center" timestamp="1614841058196">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1491" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1879" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
-    <state width="1879" height="288" key="GridCell.Tab.0.left" timestamp="1614841058196">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1491" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1879" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
-    <state width="1879" height="288" key="GridCell.Tab.0.right" timestamp="1614841058196">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1491" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614790625999" />
-    <state width="1879" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614841058196" />
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
-    <state width="1491" height="279" key="GridCell.Tab.1.bottom" timestamp="1614695652621">
+    <state width="1491" height="435" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615139279784" />
+    <state width="1491" height="415" key="GridCell.Tab.1.bottom" timestamp="1615118388588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="279" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614695652621" />
-    <state width="1491" height="279" key="GridCell.Tab.1.center" timestamp="1614695652621">
+    <state width="1491" height="415" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615118388588" />
+    <state width="1491" height="415" key="GridCell.Tab.1.center" timestamp="1615118388588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="279" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1614695652621" />
-    <state width="1491" height="279" key="GridCell.Tab.1.left" timestamp="1614695652621">
+    <state width="1491" height="415" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1615118388588" />
+    <state width="1491" height="415" key="GridCell.Tab.1.left" timestamp="1615118388588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="279" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1614695652621" />
-    <state width="1491" height="279" key="GridCell.Tab.1.right" timestamp="1614695652621">
+    <state width="1491" height="415" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1615118388588" />
+    <state width="1491" height="415" key="GridCell.Tab.1.right" timestamp="1615118388588">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="279" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1614695652621" />
+    <state width="1491" height="415" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1615118388588" />
     <state width="1491" height="279" key="GridCell.Tab.2.bottom" timestamp="1614695652622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -379,15 +276,7 @@
     </state>
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1614690485829" />
     <state width="1491" height="279" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1614695652622" />
-<<<<<<< HEAD
     <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1614865440755">
-=======
-    <state x="491" y="185" key="SettingsEditor" timestamp="1614840966591">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614840966591" />
-    <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1614780126320">
->>>>>>> 973f55c3cbe93e1b7b10488214323b3eb0e6fe2a
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1534" height="862" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.864@0.0.1536.864" timestamp="1614865440755" />
@@ -403,11 +292,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614519779291" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1614870595119">
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1615137938327">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614610108277" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1614870595119" />
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1615137938327" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,6 +345,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java</url>
           <line>138</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/FlyweightPattern.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
