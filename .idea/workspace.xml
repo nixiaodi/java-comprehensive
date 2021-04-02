@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7707a102-aa87-4d42-b2d1-153f12decab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo10/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo10/TestScheduled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/arrayStack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/arrayStack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/arrayStack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/doubleLinkedList/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/graph/GraphDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/hashtable/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/regularQueue/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/singleLinkedList/SingleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/tree/ArrayBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/jiang/tree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/org/jiang/threads/demo2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/bio/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/bio/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/buffer/NettyByteBuf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/client/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/handler/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/handler/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/initializer/CustomerClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/initializer/CustomerServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/nio/client/NioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/org/jiang/nio/server/NioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cim" beforeDir="false" afterPath="$PROJECT_DIR$/../cim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +78,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data-structure/src/main/java" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Demo10">
-    <configuration name="Demo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo10.Demo10" />
-      <module name="juc" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygit\java-comprehensive\data-structure\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="NettyByteBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.netty.buffer.NettyByteBuf" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo10.*" />
+          <option name="PATTERN" value="org.jiang.netty.buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threads.demo9.Demo9" />
-      <module name="juc" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.netty.client.NettyClient" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threads.demo9.*" />
+          <option name="PATTERN" value="org.jiang.netty.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.flyweight.integerTest.IntegerTest" />
-      <module name="design-patterns" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.netty.server.NettyServer" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.flyweight.integerTest.*" />
+          <option name="PATTERN" value="org.jiang.netty.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.flyweight.pool.Test" />
-      <module name="design-patterns" />
+    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.nio.client.NioClient" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.flyweight.pool.*" />
+          <option name="PATTERN" value="org.jiang.nio.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jiang.threadpool.TestPool" />
-      <module name="juc" />
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.nio.server.NioServer" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jiang.threadpool.*" />
+          <option name="PATTERN" value="org.jiang.nio.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestPool" />
-      <item itemvalue="Application.Demo9" />
-      <item itemvalue="Application.Demo10" />
+      <item itemvalue="Application.NioServer" />
+      <item itemvalue="Application.NioClient" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.NettyByteBuf" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo10" />
-        <item itemvalue="Application.Demo9" />
-        <item itemvalue="Application.TestPool" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.IntegerTest" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NettyByteBuf" />
+        <item itemvalue="Application.NioClient" />
+        <item itemvalue="Application.NioServer" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +203,10 @@
       <workItem from="1615050475510" duration="1536000" />
       <workItem from="1615103163941" duration="28060000" />
       <workItem from="1615205141213" duration="1447000" />
-      <workItem from="1615206729548" duration="5883000" />
+      <workItem from="1615206729548" duration="6786000" />
+      <workItem from="1616154125234" duration="10775000" />
+      <workItem from="1616327686176" duration="11515000" />
+      <workItem from="1617105901839" duration="315000" />
     </task>
     <servers />
   </component>
@@ -184,15 +217,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614525415262">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616333987311">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614525415262" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1615205689262">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1616333987311" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1616330914207">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614618244979" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615205689262" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1616330914207" />
     <state x="488" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614606514740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,46 +235,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="665" height="602" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1614601891776" />
-    <state width="1491" height="433" key="GridCell.Tab.0.bottom" timestamp="1615211654747">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1616331410794">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1616331410794" />
+    <state width="1491" height="239" key="GridCell.Tab.0.bottom" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="433" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615211654747" />
-    <state width="1491" height="433" key="GridCell.Tab.0.center" timestamp="1615211654747">
+    <state width="1491" height="239" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.0.center" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="433" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615211654747" />
-    <state width="1491" height="433" key="GridCell.Tab.0.left" timestamp="1615211654747">
+    <state width="1491" height="239" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.0.left" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="433" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615211654747" />
-    <state width="1491" height="433" key="GridCell.Tab.0.right" timestamp="1615211654747">
+    <state width="1491" height="239" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.0.right" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486019" />
-    <state width="1491" height="433" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615211654747" />
-    <state width="1491" height="415" key="GridCell.Tab.1.bottom" timestamp="1615139521509">
+    <state width="1491" height="239" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.1.bottom" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="415" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615139521509" />
-    <state width="1491" height="415" key="GridCell.Tab.1.center" timestamp="1615139521508">
+    <state width="1491" height="239" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.1.center" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="415" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1615139521508" />
-    <state width="1491" height="415" key="GridCell.Tab.1.left" timestamp="1615139521508">
+    <state width="1491" height="239" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.1.left" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="415" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1615139521508" />
-    <state width="1491" height="415" key="GridCell.Tab.1.right" timestamp="1615139521508">
+    <state width="1491" height="239" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
+    <state width="1491" height="239" key="GridCell.Tab.1.right" timestamp="1616339367251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614690486331" />
-    <state width="1491" height="415" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1615139521508" />
+    <state width="1491" height="239" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1616339367251" />
     <state width="1491" height="279" key="GridCell.Tab.2.bottom" timestamp="1614695652622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -273,19 +311,20 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="164" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1615209244126" />
-    <state x="200" y="0" key="new project wizard" timestamp="1614531523208">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="200" y="0" key="new project wizard" timestamp="1617105980234">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="200" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614531523208" />
+    <state x="200" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1617105980234" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1614519779291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614519779291" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1615221985449">
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1616331408484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614610108277" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1615221985449" />
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616331408484" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,6 +378,36 @@
           <url>file://$PROJECT_DIR$/design-patterns/src/main/java/org/jiang/flyweight/flyweightTest/FlyweightPattern.java</url>
           <line>4</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/bio/server/Server.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/bio/client/Client.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/nio/client/NioClient.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/client/NettyClient.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/initializer/CustomerClientChannelInitializer.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/org/jiang/netty/handler/NettyClientHandler.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

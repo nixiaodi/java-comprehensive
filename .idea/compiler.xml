@@ -9,6 +9,7 @@
         <module name="netty" />
         <module name="juc" />
         <module name="design-patterns" />
+        <module name="data-structure" />
       </profile>
     </annotationProcessing>
   </component>
